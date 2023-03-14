@@ -1,1 +1,94 @@
-/* You can add global styles to this file, and also import other style files */
+.container {
+    margin-top: 30px;
+  }
+  
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+  }
+  
+  .form-control {
+    width: 50%;
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    margin-right: 10px;
+    border: 2px solid #2196f3;
+    border-radius: 5px;
+  }
+  
+  .btn-primary {
+    font-size: 1.5rem;
+    padding: 10px 15px;
+    border-radius: 5px;
+    background-color: #2196f3;
+    border: none;
+    transition: all 0.3s ease;
+    display: block;
+    margin: 0 auto;
+  }
+  
+  .btn-primary:hover {
+    cursor: pointer;
+    background-color: #0069d9;
+  }
+  
+  h3 {
+    font-size: 2rem;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 20px;
+  }
+  
+  .movie-info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .movie-info .poster {
+    margin-right: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .movie-info .poster img {
+    max-width: 100%;
+    height: auto;
+  }
+  
+  .movie-info .details {
+    margin-top: 10px;
+  }
+  
+  .movie-info h1 {
+    font-size: 2rem;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  
+  .movie-info h2 {
+    font-size: 1.5rem;
+    margin-bottom: 5px;
+    text-align: center;
+  }
+  
+  .movie-info p {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+  
+  .movie-info .poster img[src="default-poster.jpg"] {
+    max-width: 100%;
+    height: auto;
+    border: 1px solid #ccc;
+    padding: 5px;
+  }
+  
